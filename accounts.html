@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-container container">
+
+          <div class="header-contact">
+            <span>(+02) - 0394 - 3465</span>
+
+            <span>Our location</span>
+          </div>
+
+          <p class="header-alert-news">
+            Super Value Deals - Save more with coupons
+          </p>
+
+          <div id="links">
+            <a href="login-register.html" class="header-top-action">
+              Log In / Sign Up
+            </a>
+          </div>
+          
+          <div id="user_info">
+            <a href="#" class="header-top-action" id="user" style="font-size: 18px;"></a>
+          </div>
+           
+        </div>
+      </div>
+      <div class="header-content">
+
+        <nav class="nav container">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/images/Logo/SZK_logo.png" alt="" class="nav-logo-img"/>
+          </a>
+          
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a href="#" class="nav-link nav-item">Shop<img src="assets/images/Icon/down-arrow (3).png" alt="" class="arrow-img nav-link"> </a>
+                <ul class="dropdown">
+                  <li><a href="#" class="dropdown-title">Clothing</a></li>
+                  <li><a href="men.html" class="dropdown-content">Men</a></li>
+                  <li><a href="kids.html" class="dropdown-content">Kids</a></li>
+                </ul>
+            </li>
+              
+              <li class="nav-item">
+                <a href="accounts.html" class="nav-link active-link">My Account</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="compare.html" class="nav-link">Compare</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="login-register.html" class="nav-link">Login</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="" class="nav-link"></a>
+              </li>
+            </ul>
+            
+            <div class="header-search">
+              <input type="text" placeholder="Search for items..." class="form-input"/>
+              
+              <button class="search-btn">
+                <img src="assets/images/Icon/search.png" alt="" />
+              </button>
+            </div>
+          </div>
+          
+          <div class="header-user-actions">
+            
+            <a href="cart.html" class="header-action-btn">
+              <img src="assets/images/Icon/shopping-cart.png" alt=""/>
+              <span class="count">3</span>
+            </a>
+            
+            <a href="wishlist.html" class="header-action-btn">
+              <img src="assets/images/Icon/heart.png" alt=""/>
+              <span class="count">3</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+      </header>
+      
+    <!--=============== MAIN ===============-->
+    <main class="main">
+    <!--=============== BREADCRUMB ===============-->
+    <section class="breadcrumb breadcrumb-mg">
+        <ul class="breadcrumb-list flex container">
+            <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+            <li><span class="breadcrumb-link">></a></li> 
+            <li><span class="breadcrumb-link">Account</a></li>       
+            
+        </ul>
+    </section>
+      <!--=============== ACCOUNTS ===============-->
+      <section class="accounts section-lg">
+        <div class="accounts-container container grid">
+            <div class="account-tabs">
+                <!--Dashboard-->
+                <p class="account-tab active-tab" data-target="#dashboard">
+                    <i class="fi fi-rs-settings-sliders" style="color:rgb(218,165,32)"></i> Dashboard
+                </p>
+              
+                <!--Orders -->
+              
+                <p class="account-tab" data-target="#orders">
+                  <i class="fi fi-rs-shopping-cart" style="color:rgb(218,165,32)"></i> Orders
+                </p>
+                
+                <!--Update Profile-->
+                
+                <p class="account-tab" data-target="#update-profile">
+                    <i class="fi fi-rs-settings-sliders" style="color:rgb(218,165,32)"></i> Update Profile
+                    <!-- <i class="fi fi-rs-user" style="color:rgb(218,165,32)"></i> Update Profile -->
+                </p>
+                
+                <!--My Address-->
+                
+                <p class="account-tab" data-target="#address">
+                    <i class="fi fi-rs-marker" style="color:rgb(218,165,32)"></i> My Address
+                </p>
+               
+                <!--Change Password-->
+                
+                <p class="account-tab" data-target="#change-password">
+                    <i class="fi fi-rs-user" style="color:rgb(218,165,32)"></i> Change Password
+                </p>
+              
+                <!--Logout-->
+                
+                <a class="account-tab" id="logout">
+                    <i class="fi fi-rs-exit" style="color:rgb(218,165,32)"></i> Logout
+                </a>
+                
+              </div>
+
+            <div class="tabs-content">
+              
+                <!--Dashboard-->
+                <div class="tab-content active-tab" content id="dashboard">
+                  <h3 class="tab-header">Hello Customer!</h3>
+                  <div class="tab-body">
+                    <p class="tab-description">
+                      From your account dashboard. you can easily check and view
+                      your recent orders, manage your shipping and billing addresses
+                      and edit your password and acount details.
+                    </p>
+                  </div>
+                </div>
+
+              <!--Orders-->
+
+                <div class="tab-content" content id="orders">
+              
+                  <h3 class="tab-header">Your Orders</h3>
+                  <div class="tab-body">
+                    <table class="placed-order-table">
+                           <tr>
+                              <th>Orders</th>
+                              <th>Date</th>
+                              <th>Status</th>
+                              <th>Total</th>
+                              <th>Actions</th>
+                            </tr>
+                            <tr>
+                              <td>#1357</td>
+                              <td>March 25, 2024</td>
+                              <td>Processing</td>
+                              <td>1800 L.E</td>
+                              <td><a href="#" class="view-order">View</a></td>
+                            </tr>
+
+                            <tr>
+                              <td>#12468</td>
+                              <td>June 29, 2023</td>
+                              <td>Completed</td>
+                              <td>900 L.E</td>
+                              <td><a href="#" class="view-order">View</a></td>
+                            </tr>
+
+                            <tr>
+                              <td>#1357</td>
+                              <td>August 02, 2022</td>
+                              <td>Completed</td>
+                              <td>1200 L.E</td>
+                              <td><a href="#" class="view-order">View</a></td>
+                            </tr>
+                          </table>
+                    </div>
+                  </div>
+               
+              
+                <!--Update Profile-->
+
+                <div class="tab-content" content id="update-profile">
+                  <h3 class="tab-header">Update Profile</h3>
+                  <div class="tab-body">
+                    <form action="" class="form grid">
+                      <input type="text" placeholder="Username" class="form-input" id="change-user"/>
+                      <div class="form-btn">
+                        <button class="btn btn-md" id="save-btn">Save</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+                <!--Address-->
+
+                <div class="tab-content" content id="address">
+                  <h3 class="tab-header">Shipping Address</h3>
+                  <div class="tab-body">
+                    <address class="address">
+                      17,Banha,Egypt
+                    </address>
+                    <p class="city">Banha</p>
+                    <a href="" class="edit">Edit</a>
+                  </div>
+                </div>
+
+                <!-- Change Password -->
+                
+                <div class="tab-content" content id="change-password">
+                  <h3 class="tab-header">Change Password</h3>
+                  <div class="tab-body">
+                    <form action="" class="form grid">
+                      <input type="email" placeholder="Email" class="form-input" id="Email"/>
+                      <input type="password" placeholder="New Password" class="form-input" id="Password"/>
+                      <input type="password" placeholder="Confirm Password" class="form-input" id="Confirm_Password"/>
+                      <div class="form-btn">
+                        <button class="btn btn-md" id="Save">Save</button>
+                      </div>
+                    </form>
+                  </div>
+                </div> 
+                
+          </div>  
+      </div>  
+     </section>
+
+  
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section home-newsletter">
+        <div class="newsletter-container container grid">
+          <h3 class="newsletter-title flex">
+            <img src="assets/images/Icon/icon-email.svg" alt="" class="newsletter-icon"/>
+           Hurry to Sign up 
+          </h3>
+          <p class="newsletter-description">...and recive 35L.E coupon for first shopping.</p>
+
+          <form action="" class="newsletter-form">
+            <input type="text" placeholder="Enter your email" class="newsletter-input">
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+    </main>   
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer-container grid">
+        <div class="footer-content">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/images/Logo/SZK_logo.png" alt="" class="footer-logo-img"/>
+          </a>
+
+          <h4 class="footer-subtitle">Contact</h4>
+
+          <p class="footer-description">
+           <span>Address:</span> Mrs. Zeinab next to Al Maeem Coffee
+          </p>
+
+          <p class="footer-description">
+            <span>Phone:</span> +02 010 2066 2653 / (+91) 01 3465 9832 
+          </p>
+
+          <p class="footer-description">
+            <span>Hours:</span> 09:00 - 20:00, sat - Thu 
+          </p>
+
+          <div class="footer-social">
+            <h4 class="footer-subtitle">Follow Me</h4>
+
+            <div class="footer-social-links flex">
+              <a href=""><img src="assets/images/Icon/icon-facebook.svg" alt="" class="footer-social-icon"></a>
+
+              <a href=""><img src="assets/images/Icon/icon-twitter.svg" alt="" class="footer-social-icon"></a>
+
+              <a href=""><img src="assets/images/Icon/icon-instagram.svg" alt="" class="footer-social-icon"></a>
+
+              <a href=""><img src="assets/images/Icon/icon-youtube.svg" alt="" class="footer-social-icon"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">Address</h3>
+
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">About Us</a></li>
+            <li><a href="" class="footer-link">Delivery Information</a></li>
+            <li><a href="" class="footer-link">Privacy Policy</a></li>
+            <li><a href="" class="footer-link">Terms & Conditions</a></li>
+            <li><a href="" class="footer-link">Contact Us</a></li>
+            <li><a href="" class="footer-link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">My Account</h3>
+
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Sign In</a></li>
+            <li><a href="" class="footer-link">View Cart</a></li>
+            <li><a href="" class="footer-link">My Favouraite</a></li>
+            <li><a href="" class="footer-link">Track & My Order</a></li>
+            <li><a href="" class="footer-link">Help</a></li>
+            <li><a href="" class="footer-link">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contnet">
+          <h3 class="footer-title">Secured Payment Gateways</h3>
+
+          <img src="assets/images/Icon/payment-method.png" alt="" class="payment-img">
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2024 KSZ. All rights reserved</p>
+        <span class="designer">Designed by KSZ</span>
+      </div>
+    </footer>
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== USER JS ===============-->
+    <script src="assets/js/user.js"></script>
+
+    <!--=============== MY ACCOUNT JS ===============-->
+    <script src="assets/js/account.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

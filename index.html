@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    
+
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header" >
+      <div class="header-top">
+        <div class="header-container container">
+
+          <div class="header-contact">
+            <span>(+02) - 0394 - 3465</span>
+
+            <span>Our location</span>
+          </div>
+
+          <p class="header-alert-news">
+            Super Value Deals - Save more with coupons
+          </p>
+          
+          <div id="links">
+            <a href="login-register.html" class="header-top-action">
+              Log In / Sign Up
+            </a>
+          </div>
+          
+          <div id="user_info">
+            <a href="#" class="header-top-action" id="user" style="font-size: 18px;"></a>
+          </div>
+          
+
+
+        </div>
+      </div>
+      <div class="header-content">
+
+        <nav class="nav container">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/images/Logo/SZK_logo.png" alt="" class="nav-logo-img"/>
+          </a>
+          
+          <div class="nav-menu" id="nav_menu">
+            <div class="nav-menu-top">
+              <a href="index.html" class="nav-menu-logo">
+                <img src="assets/images/Logo/SZK_logo.png" alt="">
+              </a>
+
+              <div class="nav-close" id="nav_close">
+                <i class="fi fi-rs-cross-small" style="color: var(--second-color-alt);"></i>
+              </div>
+            </div>
+            <ul class="nav-list navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active-link active">Home</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a href="#" class="nav-link nav-item">Shop<img src="assets/images/Icon/down-arrow (3).png" alt="" class="arrow-img nav-link"> </a>
+                <ul class="dropdown">
+                  <li><a href="#" class="dropdown-title" >Clothing</a></li>
+                  <li><a href="men.html" class="dropdown-content">Men</a></li>
+                  <li><a href="kids.html" class="dropdown-content">Kids</a></li>
+                </ul>
+            </li>
+              
+              <li class="nav-item">
+                <a href="accounts.html" class="nav-link">My Account</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="compare.html" class="nav-link">Compare</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="login-register.html" class="nav-link">Login</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="" class="nav-link"></a>
+              </li>
+            </ul>
+            
+            <div class="header-search">
+              <input type="text" placeholder="Search for items..." class="form-input" id="search"/>
+              
+              <button class="search-btn">
+                <img src="assets/images/Icon/search.png" alt="" />
+              </button>
+            </div>
+          </div>
+          
+          <div class="header-user-actions">
+            
+            <a href="cart.html" class="header-action-btn">
+              <img src="assets/images/Icon/shopping-cart.png" alt=""/>
+              <span class="count">3</span>
+            </a>
+            
+            <a href="wishlist.html" class="header-action-btn">
+              <img src="assets/images/Icon/heart.png" alt=""/>
+              <span class="count">3</span>
+            </a>
+
+            <div class="header-action-btn nav-toggle" id="nav_toggle">
+              <img src="assets/images/Icon/menu-burger.svg" alt="" style="background-color:var(first-color-alt);">
+            </div>
+          </div>
+        </nav>
+      </div>
+      </header>
+      
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!-- <div class="bar-container">
+        <div class="bar">
+          <a href="#" class="close" id="close-bar"><i class="fa fa-arrow-left"></i></a>
+          <a href="#" class="active"><i class="actve fa fa-home" ></i></a>
+          <a href="#" class="opacity"><i class="fa fa-envelope"></i></a>
+          <a href="#"class="opacity"><i class="fa fa-phone" ></i></a>
+          <a href="#"class="opacity"><i class="fab fa-whatsapp" ></i></a>
+          <a href="#"class="opacity"><i class="fab fa-facebook-messenger" ></i></a>
+        </div>         
+          <div class="bars" id="op">
+           <a href="#" class="open" id="open-bar"><i class="fa fa-arrow-right"></i></a> 
+          </div>
+      </div> -->
+       <!--=============== HOME ===============-->
+       <section class="home section-lg">
+        
+        <div class="home-container container grid">
+            <div class="home-content">
+            <span class="home-subtitle">Hot Promotions</span>
+            <h1 class="home-title">
+                Fashion Trending <span>Great Collection</span>
+            </h1>
+            <p class="home_description">
+                Save more with coupons &amp; up to 20% off
+            </p>
+            <a href="https://veila.shop/en/shop" class="btn" style="margin-top:10px ;">Shop Now</a>
+            </div>
+            <img src="assets/images/HomePicture/home-img.png" class="home__img" alt="hats">
+        </div>
+
+        <!-- <div class="">
+            <img src="assets/images/HomePicture/home-img.png" width="100%" height="500px" alt="" class="home-img" />
+        </div> -->
+      </section>
+
+      <!--=============== CATEGORIES ===============-->
+      <section class="categories container section">
+        <h3 class="section-title"><span>Popular</span> Categories</h3>
+
+        <div class="categories-container slider swiper">
+          <div class="swiper-wrapper slide-track products">
+
+            <!-- API -->
+
+          </div>
+          <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+          <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products section container section-relative">
+        <div class="tab-btns">
+          <span class="tab-btn active-tab" data-target="#featured">Featured</span>
+          <span class="tab-btn" data-target="#popular">Popular</span>
+          <span class="tab-btn" data-target="#new-added">New added</span>
+        </div>
+
+        <div class="tab-items">
+          
+
+          <div class="tab-item active-tab swiper-wrapper" content id="featured">
+            <div class="products-container grid swiper-slide">
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+  
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+  
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+  
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+  
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+  
+                    
+                  </div>
+  
+                  <!-- <div class="product-badge light-pink">Hot</div> -->
+                </div>
+  
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+  
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+                 
+                    <a href="#" class="cart-btn">
+                      <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                      <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                      <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                    </a>
+  
+                </div>
+              </div>
+  
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-orange">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-blue">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">-30%</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">-22%</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-item" content id="popular">
+            <div class="products-container grid">
+              
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-orange">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-blue">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">-30%</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">-22%</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-item" content id="new-added">
+            <div class="products-container grid">
+              
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-orange">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-blue">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">-30%</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-pink">-22%</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item swiper-slide">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img default">
+
+                    <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img hover">
+                  </a>
+                  <div class="product-actions">
+
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+
+                    
+                  </div>
+
+                  <!-- <div class="product-badge light-green">Hot</div> -->
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">CLothing</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Colorful Pattern Shirts</h3>
+                  </a>
+                  <div class="product-rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <div class="product-price flex">
+
+                    <span class="new-price">450L.E</span>
+                    <!-- <span class="old-price">700L.E</span> -->
+                  </div>
+
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== NEW ARRIVALS ===============-->
+      <section class="new-arrivals container section">
+        <h3 class="section-title"><span>New</span> Arrivals</h3>
+
+        <div class="new-container swiper">
+          <div class="swiper-wrapper">
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-pink">Hot</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+               
+                  <a href="#" class="cart-btn">
+                    <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                    <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                    <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                  </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-green">Hot</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-orange">Hot</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_2_2.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-blue">Hot</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-pink">-30%</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-pink">-22%</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_3_2.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-green">Hot</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="assets/images/ClothingPictures/Man/man_2_1.jpg" alt="" class="product-img default">
+
+                  <img src="assets/images/ClothingPictures/Man/man_3_1.jpg" alt="" class="product-img hover">
+                </a>
+                <div class="product-actions">
+
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Favouraite">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Compare">
+                    <i class="fi fi-rs-shuffle"></i>
+                  </a>
+
+                  
+                </div>
+
+                <!-- <div class="product-badge light-green">Hot</div> -->
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">CLothing</span>
+                <a href="details.html">
+                  <h3 class="product-title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product-rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product-price flex">
+
+                  <span class="new-price">450L.E</span>
+                  <!-- <span class="old-price">700L.E</span> -->
+                </div>
+
+                <a href="#" class="cart-btn">
+                  <!-- <i class="fi fi-rs-shoping-bag-add"></i> -->
+                  <!-- <i class="fi fi-ts-cart-minus lg" class="shopping-carts"></i> -->
+                  <img src="assets/img/shopping-card.png" alt="" class="shopping-carts">
+                </a>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+          <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+        </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section home-newsletter">
+        <div class="newsletter-container container grid">
+          <h3 class="newsletter-title flex">
+            <img src="assets/images/Icon/icon-email.svg" alt="" class="newsletter-icon"/>
+           Hurry to Sign up 
+          </h3>
+          <p class="newsletter-description">...and recive 35L.E coupon for first shopping.</p>
+
+          <form action="" class="newsletter-form">
+            <input type="text" placeholder="Enter your email" class="newsletter-input">
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+    </main>   
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer-container grid">
+        <div class="footer-content">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/images/Logo/SZK_logo.png" alt="" class="footer-logo-img"/>
+          </a>
+
+          <h4 class="footer-subtitle">Contact</h4>
+
+          <p class="footer-description">
+           <span>Address:</span> Mrs. Zeinab next to Al Maeem Coffee
+          </p>
+
+          <p class="footer-description">
+            <span>Phone:</span> +02 010 2066 2653 / (+91) 01 3465 9832 
+          </p>
+
+          <p class="footer-description">
+            <span>Hours:</span> 09:00 - 20:00, sat - Thu 
+          </p>
+
+          <div class="footer-social">
+            <h4 class="footer-subtitle">Follow Me</h4>
+
+            <div class="footer-social-links flex">
+              <a href=""><img src="assets/images/Icon/icon-facebook.svg" alt="" class="footer-social-icon"></a>
+
+              <a href=""><img src="assets/images/Icon/icon-twitter.svg" alt="" class="footer-social-icon"></a>
+
+              <a href=""><img src="assets/images/Icon/icon-instagram.svg" alt="" class="footer-social-icon"></a>
+
+              <a href=""><img src="assets/images/Icon/icon-youtube.svg" alt="" class="footer-social-icon"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">Address</h3>
+
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">About Us</a></li>
+            <li><a href="" class="footer-link">Delivery Information</a></li>
+            <li><a href="" class="footer-link">Privacy Policy</a></li>
+            <li><a href="" class="footer-link">Terms & Conditions</a></li>
+            <li><a href="" class="footer-link">Contact Us</a></li>
+            <li><a href="" class="footer-link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">My Account</h3>
+
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Sign In</a></li>
+            <li><a href="" class="footer-link">View Cart</a></li>
+            <li><a href="" class="footer-link">My Favouraite</a></li>
+            <li><a href="" class="footer-link">Track & My Order</a></li>
+            <li><a href="" class="footer-link">Help</a></li>
+            <li><a href="" class="footer-link">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contnet">
+          <h3 class="footer-title">Secured Payment Gateways</h3>
+
+          <img src="assets/images/Icon/payment-method.png" alt="" class="payment-img">
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2024 KSZ. All rights reserved</p>
+        <span class="designer">Designed by KSZ</span>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!--=============== USER JS ===============-->
+    <script src="assets/js/user.js"></script>
+
+    <!--=============== API JS ===============-->
+    <script src="assets/js/popularAPI.js"></script>
+
+    <!--=============== BAR JS ===============-->
+    <script src="assets/js/menuBar.js"></script>
+
+    <!-- =============== DATA JS =============== -->
+    <script src="assets/js/data.js"></script>
+
+    <!--=============== SEARCH JS ===============-->
+    <script src="assets/js/search.js"></script>
+
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>

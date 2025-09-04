@@ -1,0 +1,18 @@
+http://www.lighthouse3d.com/tutorials/glut-tutorial/
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html
+http://lazyfoo.net/tutorials/OpenGL/index.php
+http://www.swiftless.com/opengltuts.html
+http://www.songho.ca/opengl/index.html
+http://nehe.gamedev.net/
+https://user.xmission.com/~nate/glut.html
+http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Table-of-Contents.html
+http://www.glprogramming.com/red/
+https://www.youtube.com/watch?v=3aJ8OR1C6pk&list=PLWzp0Bbyy_3jy34HlDrEWlcG3rF99gkvk
+******************
+Blender: it is tool used for graphic designing without any coding 
+https://www.youtube.com/watch?time_continue=152&v=B0J27sf9N1Y&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjMsMTM3NzIxLDI4NjY2&feature=emb_logo
+
+***************
+unity: game engine using drag and drop + c# coding for actions and animation.
+https://www.youtube.com/watch?v=XtQMytORBmM&t=18s
+
